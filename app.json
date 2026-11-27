@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "SubTrack",
+    "slug": "subtrack",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "bundleIdentifier": "com.subtrack.app",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.subtrack.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#171A1D"
+      }
+    },
+    "plugins": [
+      "expo-notifications",
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Allow SubTrack to use Face ID to unlock the app."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "icon": "./assets/icon.png"
+  }
+}
