@@ -3,7 +3,7 @@
 
   <h1>SubTrack</h1>
   <p>A simpler way to manage your subscriptions.</p>
-  <p>iOS · Android · Web</p>
+  <p>iOS ! Android</p>
 </div>
 
 ---
